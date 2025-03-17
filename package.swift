@@ -16,3 +16,4 @@ let package = Package(
             name: "MixpanelSessionReplay", 
             path: "MixpanelSessionReplay.xcframework")
     ])
+
