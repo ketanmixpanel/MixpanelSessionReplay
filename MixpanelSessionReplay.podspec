@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "MixpanelSessionReplay.xcframework"
     s.platform = :ios
     s.swift_version = "5.7"
-    s.ios.deployment_target  = '16.0'
+    s.ios.deployment_target  = '12.0'
     s.requires_arc = true
 end
