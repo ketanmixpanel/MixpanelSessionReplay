@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/ketanmixpanel/spm-testing.git", :branch => "main", :tag => "#{s.version}" }
     s.vendored_frameworks = "MixpanelSessionReplay.xcframework"
     s.platform = :ios
-    s.swift_version = "5.7"
+    s.swift_version = "4.0"
     s.ios.deployment_target  = '12.0'
     s.requires_arc = true
 end
